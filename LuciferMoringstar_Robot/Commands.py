@@ -115,10 +115,10 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("Search Here", url='https://t.me/ARYANFILIMS')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("💛Join Our Channel💛", url='https://t.me/RHYTHMHACKER'),
+                InlineKeyboardButton("⭕Back up Channel⭕", url='https://t.me/joinchat/rP2J5aSvTvk3YmM1')
                 ]]
             )
         )
