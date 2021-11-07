@@ -117,6 +117,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("💙Join Our Channel💙", url='https://t.me/RHYTHMHACKER')
                 ],[
+                InlineKeyboardButton("👑Owner👑", url='https://t.me/Jikku333')
+                ],[
                 InlineKeyboardButton("💛New Movies💛", url='https://t.me/ARYANFILIMS'),
                 InlineKeyboardButton("⭕Back up Channel⭕", url='https://t.me/joinchat/rP2J5aSvTvk3YmM1')
                 ]]
