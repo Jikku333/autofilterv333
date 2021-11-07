@@ -308,9 +308,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('❇️Join Now❇️', url='https://t.me/RHYTHMHACKER')
+                    ],[
+                        InlineKeyboardButton('My Owner👑', url='https://t.me/Jikku333')
                     ]
-                    ]
+                     ]
                 
                 await query.answer()
                 await client.send_cached_media(
