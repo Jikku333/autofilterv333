@@ -115,8 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("💙Join Our Channel💙", url='https://t.me/RHYTHMHACKER')
-                ],[
+                InlineKeyboardButton("💙Join Our Channel💙", url='https://t.me/RHYTHMHACKER'),
                 InlineKeyboardButton("👑Owner👑", url='https://t.me/Jikku333')
                 ],[
                 InlineKeyboardButton("💛New Movies💛", url='https://t.me/ARYANFILIMS'),
